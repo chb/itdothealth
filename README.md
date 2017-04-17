@@ -1,2 +1,2 @@
 # itdothealth
-ITDotHealth web site
+ITDotHealth web site (server via GitHUB Pages)

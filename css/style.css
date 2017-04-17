@@ -1,0 +1,29 @@
+#newstweet-container{
+	float:left;
+	width:100%;
+	background: transparent;
+	text-align:center;
+	margin:0px;
+}
+
+#newstweet-container a { -moz-outline-style: none;} /* Removes ugly dotted lines in Firefox */
+#newstweet-container a img{border:0;} /* Removes borders from images in IE */
+
+div#newstweet-header{float:left; margin:0px 0px 10px 0px; padding:0px 10px; font-size:12px; line-height:14px; font-weight:normal; text-align:left;} /* Style for the header */
+div#newstweet-header em{color:#5A812E; font-style:normal;} /* Highlights the search term */
+
+#newstweet-container div#twitterwrapper{float:left; width:auto; margin:0px auto; padding:0px; text-align:center;} /* Container where the posts are displayed */
+
+#newstweet-container div#tweetholder{float:left; margin:0 auto; padding:0px;} /* Interior container where the posts are displayed */
+div.tweet{float:left;margin:0px 0px 5px 0px; padding:10px; text-align:left; border:1px solid #e1e1e1; display:none;} /* Boxes where each post is displayed */
+
+#newstweet-container img.avatar{float:left; margin:0px 10px 0px 0px; padding:2px; width:24px; height:24px; background:#fff; border:1px solid #e1e1e1;} /* Resize the avatar - Standard size is 48 x 48 */
+#newstweet-container p.posted{float:left; margin:0px;} /* Style for the text that displays who posted the tweet */
+#newstweet-container p.posttext{float:left; overflow:hidden; width:100%; margin:0px 0px 8px 0px; padding:0px; font-style:italic;} /* Style for the main text of the tweet */
+#newstweet-container p.posttext em{font-style:normal;}
+#newstweet-container span.date{font-size:10px; letter-spacing:-1px;} /* Style for the text that displays time and date the tweet was posted */
+
+#newstweet-container p.newstweet-viewall{float:left; margin:0px auto; padding:0px; text-align:left;} /* Container where "View All" and "Tweet It" links are displayed */
+
+
+.newstweet-clear{width:100%; height:1px; clear:both; font-size:1px; line-height:1px;} /* Used to clear out elements so the display nicely */
